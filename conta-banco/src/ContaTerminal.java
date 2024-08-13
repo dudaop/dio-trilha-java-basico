@@ -1,7 +1,9 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) {
+        try{
         Scanner scanner = new Scanner(System.in);
 
         // Entrada de dados
@@ -63,5 +65,10 @@ public class ContaTerminal {
         }
 
         scanner.close();
+     }
+     catch(InputMismatchException e){
+        System.out.println("Os campos Agencia, conta, Saque e Menu devem ser númericos");
+     }
+    
     }
 }
