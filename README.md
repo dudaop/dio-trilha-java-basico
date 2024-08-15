@@ -12,11 +12,13 @@ O objetivo é criar uma aplicação Java que simula a criação de uma conta ban
 - Exibição de uma mensagem personalizada de boas-vindas com os dados inseridos.
 - Opções para depositar dinheiro, sacar dinheiro e verificar o saldo.
 - Mensagem de confirmação após cada operação de depósito ou saque.
+- E o uso de tratamento de exeções para caso o usuário digite algo inesperado.
 
 ## Tecnologias Utilizadas 💡
 
 - **Java**: Linguagem de programação utilizada para o desenvolvimento da aplicação.
 - **Scanner**: Classe utilizada para capturar a entrada de dados do usuário via terminal.
+- **Tratamento de Exeções(try and catch)**: utlizado para prevenção de erros de código.
 
 ## Como Executar 🚀
 
